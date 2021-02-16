@@ -4,7 +4,8 @@ const app = Vue.createApp({
             curseGoal: 'Learn Vue.js!',
             vueLink: 'https://vuejs.org/',
             data1: 'Learn all about Vue',
-            data2: 'Writing good Vue code'
+            data2: 'Writing good Vue code',
+            htmlContent: '<h2>Learn the v-html directive</h2>'
         }
     },
     methods: {
