@@ -9,7 +9,15 @@ const app = Vue.createApp({
         }
     },
     computed: {
-
+        boxAClasses() {
+           return { activeA: this.aSelected }
+        },
+        boxBClasses() {
+            return { activeB: this.bSelected }
+        },
+        boxCClasses() {
+            return { activeC: this.cSelected }
+        }
     },
     methods: {
         boxSelected(box) {

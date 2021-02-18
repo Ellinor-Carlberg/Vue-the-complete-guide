@@ -18,9 +18,9 @@
     </header>
     <section id="styling">
       <div class="demo" 
-      :class="{activeA: aSelected}" @click="boxSelected('A')" ></div>
-      <div @click="boxSelected('B')" class="demo" :class="{activeB: bSelected}"></div>
-      <div @click="boxSelected('C')" class="demo" :class="{activeC: cSelected}"></div>
+      :class="boxAClasses" @click="boxSelected('A')" ></div>
+      <div @click="boxSelected('B')" class="demo" :class="boxBClasses"></div>
+      <div @click="boxSelected('C')" class="demo" :class="boxCClasses"></div>
     </section>
   </body>
 </html>
